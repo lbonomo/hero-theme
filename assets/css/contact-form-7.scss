@@ -1,0 +1,38 @@
+.wpcf7-form {
+	margin: auto;
+}
+
+.wp-block-contact-form-7-contact-form-selector {
+	max-width: 900px;
+	margin: auto;
+}
+
+textarea.wpcf7-form-control,
+input.wpcf7-form-control {
+	padding: 0.5rem;
+	width: 100%;
+	border: 1px solid;
+}
+
+input[type='submit'].wpcf7-form-control {
+	font-family: $main-font;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 600;
+	color: white;
+	display: block;
+	max-width: 400px;
+	margin: auto;
+	/* 13 solo porque el texto tiene un alto de 18 */
+	padding: 13px 30px;
+	text-align: center;
+	background-color: $cta-color-base;
+	border: 2px solid $cta-color-base;
+	border-radius: $cta-border-radius;
+}
+
+input[type='submit'].wpcf7-form-control:hover {
+	background-color: $cta-color-hover;
+	border-color: $cta-color-hover;
+	cursor: pointer;
+}

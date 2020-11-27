@@ -1,0 +1,16 @@
+footer {
+	margin: 0 auto 1rem;
+	padding-top: 1.5rem;
+	border-top: 1px solid $base-color-dark;
+}
+
+footer nav ul.social-links-menu {
+	display: flex;
+	list-style-type: none;
+	justify-content: center;
+}
+
+footer nav ul.social-links-menu li a svg {
+	height: 2rem;
+	width: 3rem;
+}
