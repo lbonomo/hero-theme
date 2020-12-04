@@ -9,7 +9,9 @@
 			<div class="h-column h-column-container d-flex h-col-none style-4-outer style-local-7-h4-outer">
 			  <div data-colibri-id="7-h4" data-placeholder-provider="navigation-logo" class="d-flex h-flex-basis h-column__inner h-px-lg-0 h-px-md-0 h-px-0 v-inner-lg-0 v-inner-md-0 v-inner-0 style-4 style-local-7-h4 position-relative">
 				<div class="w-100 h-y-container h-column__content h-column__v-align flex-basis-auto align-self-lg-center align-self-md-center align-self-center">
-					<?php colibriwp_theme()->get( 'logo' )->render(); ?>
+					<?php
+					colibriwp_theme()->get( 'logo' )->render();
+					?>
 				</div>
 			  </div>
 			</div>

@@ -27,11 +27,9 @@ class Customizer {
 
 
 	public function __construct( Theme $theme ) {
-
 		// new CustomizerApi();
 		$this->theme   = $theme;
 		$this->options = new Tree();
-
 	}
 
 	public static function sanitize( $value ) {
