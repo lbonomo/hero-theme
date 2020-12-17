@@ -7,12 +7,18 @@
 	margin: auto;
 }
 
+.wpcf7-form textarea,
+.wpcf7-form input {
+	font-size: 1.2rem;
+}
+
 textarea.wpcf7-form-control,
 input.wpcf7-form-control {
 	padding: 0.5rem;
 	width: 100%;
 	border: 1px solid;
 }
+
 
 input[type='submit'].wpcf7-form-control {
 	font-family: $main-font;

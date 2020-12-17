@@ -1,0 +1,9 @@
+div #hero.h-hero {
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+/* Sobre-escribe el degradado de las paginas */
+#colibri .background-layer .overlay-layer {
+    opacity: 50% !important;
+}

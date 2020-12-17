@@ -1,16 +1,37 @@
-footer {
-	margin: 0 auto 1rem;
-	padding-top: 1.5rem;
-	border-top: 1px solid $base-color-dark;
+.social-navigation {
+    font-size: 16px;
+    font-size: 1rem;
+    margin-bottom: 1em;
+		box-sizing: inherit;
 }
 
-footer nav ul.social-links-menu {
-	display: flex;
-	list-style-type: none;
-	justify-content: center;
+.social-navigation ul {
+	list-style: none;
+	text-align: center;
+	margin: 0;
+	padding: 0;
 }
 
-footer nav ul.social-links-menu li a svg {
-	height: 2rem;
-	width: 3rem;
+.social-navigation li {
+    display: inline;
+}
+
+.social-navigation a {
+    -webkit-border-radius: 44px;
+    border-radius: 44px;
+    display: inline-block;
+    height: 44px;
+    margin: 0 1em .5em 0;
+    text-align: center;
+    width: 44px;
+		border: 2px solid black;
+}
+
+.social-navigation .icon {
+	display: inline-block;
+	position: relative;
+	height: 24px;
+	top: 8px;
+	width: 24px;
+	vertical-align: top;
 }

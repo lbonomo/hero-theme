@@ -34,14 +34,39 @@ class HeroStyle extends PartialComponent {
 		<div class="background-wrapper" data-colibri-hide-pen="true">
 			<div class="background-layer">
 				<div class="background-layer">
-					<?php $this->doSlideshow(); ?>
-					<?php $this->doVideoBackground(); ?>
+					<?php
+
+					$this->showFeaturedImage();
+
+					if ( is_single() && ! is_front_page() ) {
+						$this->showFeaturedImage();
+					} else {
+						$this->doSlideshow();
+						$this->doVideoBackground();
+					}
+
+					?>
 				</div>
 				<div class="overlay-layer"></div>
 				<div class="shape-layer"></div>
 			</div>
 		</div>
 		<?php
+	}
+
+	/**
+	*
+	*/
+	public function showFeaturedImage() {
+		if ( '' !== get_the_post_thumbnail() ) {
+			$thumbnail = wp_get_attachment_image_src( get_post_thumbnail_id( get_the_ID() ), 'full' )[0];
+			if ( ! empty( $thumbnail ) ) {
+				echo '<style type="text/css">';
+				echo 'div #hero.h-hero {	background-image: url(' . $thumbnail . ');	} ';
+				echo '</style>';
+			}
+		};
+
 	}
 
 	public function doSlideshow() {
