@@ -3,7 +3,12 @@ div #hero.h-hero {
 	background-size: cover;
 	background-position: center;
 }
+
+div #hero.h-hero h1{
+	text-transform: uppercase;
+}
+
 /* Sobre-escribe el degradado de las paginas */
 #colibri .background-layer .overlay-layer {
-    opacity: 50% !important;
+	opacity: 50% !important;
 }

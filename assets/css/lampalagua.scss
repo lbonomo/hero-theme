@@ -7,12 +7,8 @@
 /* Base del theme */
 @import './colibri.scss';
 
-/* Headers */
-@import './header.scss';
-
 /* Contact Form 7 Styles */
 @import './contact-form-7.scss';
-
 
 /* Social links Menu */
 @import './social-links-menu.scss';
@@ -20,6 +16,8 @@
 /* CTAs */
 @import './cta.scss';
 
-
 /* Listas */
 @import './lists.scss';
+
+/* Headers */
+@import './header.scss';
