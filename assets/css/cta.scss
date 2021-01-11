@@ -8,6 +8,7 @@
 	margin: 1rem 0;
 }
 
+
 .servicios div.wp-block-button {
 	width: 100%;
 	font-size: 1.6rem;
@@ -22,9 +23,9 @@
 }
 
 
-@media screen and (min-width : 768px) {
+@media screen and (min-width : 1024px) {
 	.servicios div.wp-block-button {
-		width: 45%;
+		width: 30%;
 	}
 
 	.servicios.wp-block-buttons>.wp-block-button {
